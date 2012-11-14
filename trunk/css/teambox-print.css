@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License") +  you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+.inline {
+  display: inline; }
+
+.center {
+  text-align: center; }
+
+.clear, .br {
+  clear: both; }
+
+.hidden {
+  display: none; }
+
+body {
+  font-family: "Lucida Grande", "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif; }
+  body a {
+    text-decoration: none;
+    color: black; }
+  body img {
+    border: 0; }
+
+#cover {
+  display: none !important; }
+
+.header_wrap > .header {
+  padding: 0 10px;
+  float: left; }
+  .header_wrap > .header .search_bar, .header_wrap > .header #quick_add_buttons, .header_wrap > .header .dropdown_navigation {
+    display: none; }
+  .header_wrap > .header h1 {
+    margin: 0; }
+
+.column_wrap, .three_pane_list {
+  display: none; }
+
+.ribbon-env {
+  display: none; }
+
+.new_comment_wrap, .actions_menu, .button {
+  display: none; }
+
+.separator {
+  line-height: 48px;
+  padding: 0 10px; }
+  .separator .breadcrumb .step {
+    font-size: 12px; }
+    .separator .breadcrumb .step:before {
+      content: "→";
+      margin: 0 5px; }
+    .separator .breadcrumb .step:first-child:before {
+      content: " ";
+      margin: 0 5px; }
+  .separator #view_title .refresh, .separator .view_modes, .separator .js-menu {
+    display: none; }
+
+.textilized h1, .content.pages_content .note.slot h1 {
+  font-size: 16px; }
+.textilized h2, .content.pages_content .note.slot h2 {
+  font-size: 14px; }
+.textilized ul, .content.pages_content .note.slot ul {
+  padding-left: 30px; }
+
+.content.tasks_content .buttons {
+  visibility: hidden;
+  height: 0; }
+.content.tasks_content .task_list > .head img.drag {
+  display: none; }
+.content.tasks_content .task_list > .head a {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: Georgia, Times New Roman, serif;
+  border-bottom: 1px solid #cccccc;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 10px; }
+.content.tasks_content #task_lists.kanban .tasks {
+  height: auto !important; }
+.content .button_new_task, .content .archived_tasks {
+  visibility: hidden;
+  height: 0; }
+.content.conversations_content header h3 {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: Georgia, Times New Roman, serif;
+  border-bottom: 1px solid #cccccc;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 10px;
+  margin-bottom: 10px; }
+.content.conversations_content .comments {
+  margin-left: 10px; }
+.content.pages_content .page_header h3 {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: Georgia, Times New Roman, serif;
+  border-bottom: 1px solid #cccccc;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 10px; }
+.content.pages_content .page_header .description {
+  display: block;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 0 10px;
+  font-family: Georgia, Times New Roman, serif;
+  color: #666666;
+  margin-bottom: 20px; }
+.content.pages_content .buttons {
+  display: none; }
+.content.pages_content .pageInsert {
+  visibility: hidden;
+  height: 0;
+  position: absolute; }
+.content.pages_content .divider.slot h4 {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: Georgia, Times New Roman, serif;
+  border-bottom: 1px solid #cccccc;
+  line-height: 24px;
+  font-size: 16px;
+  margin: 0 10px; }
+.content.pages_content .note.slot {
+  font-size: 12px; }
+  .content.pages_content .note.slot h5 {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: Georgia, Times New Roman, serif;
+    font-size: 14px;
+    margin: 10px 10px 0; }
+  .content.pages_content .note.slot p {
+    margin: 20px 10px 10px;
+    line-height: 1.6; }
+
+.comments .block {
+  margin-bottom: 30px; }
+  .comments .block .header .author {
+    display: inline;
+    font-weight: bold; }
+  .comments .block .header .actiondate {
+    display: inline;
+    font-size: 10px;
+    color: #666666;
+    margin-left: 5px; }
+  .comments .block .header .transitions {
+    display: inline-block;
+    margin-left: 10px; }
+  .comments .block .body {
+    font-size: 13px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #cccccc; }
+    .comments .block .body p {
+      margin: 10px 0; }
+.comments .more_comments {
+  display: none; }
+
+.tb_task {
+  display: block;
+  position: relative;
+  line-height: 26px;
+  font-size: 14px;
+  padding-left: 60px; }
+  .tb_task > .taskHeader .comment_count, .tb_task > .taskHeader .actions_menu, .tb_task > .taskHeader .extended {
+    display: none; }
+  .tb_task > .taskHeader .name_holder {
+    float: left;
+    text-indent: -20px; }
+  .tb_task > .taskHeader .options, .tb_task > .taskHeader .taskStatus {
+    display: inline-block; }
+  .tb_task > .taskHeader .task_status, .tb_task > .taskHeader .assigned_date_wrapper {
+    margin-left: 10px;
+    display: inline-block; }
+  .tb_task:before {
+    content: "";
+    font-size: 12px;
+    text-indent: 1px;
+    color: #666666;
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #999999;
+    float: left;
+    margin-left: -40px;
+    margin-top: 5px;
+    line-height: 1; }
+
+.tb_task.status_3:before, .tb_task.status_4:before {
+  content: "✔" !important; }
+
+.task_status, .assigned_date, .urgent {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  height: 14px;
+  line-height: 14px;
+  padding: 1px 10px;
+  font-size: 10px;
+  color: #999999; }
+
+.task_status {
+  border: 1px solid #999999; }
+
+.assigned_date, .urgent {
+  border: 1px dashed #999999; }
